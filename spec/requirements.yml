@@ -1,0 +1,22 @@
+version: 1
+scope:
+  target_release: v1
+  target_slice: one-season deterministic ingest and baseline prediction
+
+requirements:
+  - id: RQ-001
+    name: deterministic_test_environment
+    description: Tests must be deterministic and never depend on live HTTP services.
+    priority: must
+  - id: RQ-002
+    name: repository_runbook
+    description: Runbook must document setup, run, test, and ingest status/workflow.
+    priority: must
+  - id: RQ-003
+    name: release_repeatability
+    description: Release process must run preflight checks, compile changelog fragments, bump version, and create tag.
+    priority: must
+  - id: RQ-004
+    name: one_season_scope
+    description: v1 ingest scope is limited to one full season to preserve delivery focus.
+    priority: must
