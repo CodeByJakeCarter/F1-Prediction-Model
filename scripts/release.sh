@@ -61,7 +61,7 @@ if ! command -v git >/dev/null 2>&1; then
   exit_with 2 "git is required"
 fi
 
-if ! git diff --quiet || ! git diff --cached --quiet; then
+if [[ -n "$(git status --porcelain)" ]]; then
   exit_with 3 "working tree must be clean before release"
 fi
 
