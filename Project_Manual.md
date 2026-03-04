@@ -138,10 +138,10 @@ For the separate UI repository, use a lightweight check appropriate to your setu
 
 Update this block manually as you work through the workbook.
 
-- Current state: _TBD_
-- Next target state: _TBD_
-- Last completed step: _TBD_
-- Current version focus: _TBD_
+- Current state: 1.2.1.1
+- Next target state: 1.2.1.2
+- Last completed step: 1.2.1.1
+- Current version focus: v1
 
 
 ---
