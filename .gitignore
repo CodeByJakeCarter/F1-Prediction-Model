@@ -1,6 +1,9 @@
 .venv
 .python-version
-.vscode
+.vscode/*
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/settings.json
 .pytest_cache
 __pycache__/
 *.pyc
