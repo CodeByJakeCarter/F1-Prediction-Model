@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run FastAPI",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["app.main:app", "--reload"],
+      "console": "integratedTerminal",
+      "jinja": true
+    },
+
+    {
+        "name": "Run pytest",
+        "type": "debugpy",
+        "request": "launch",
+        "module": "pytest",
+        "console": "integratedTerminal"
+    }
+  ]
+}
