@@ -138,9 +138,9 @@ For the separate UI repository, use a lightweight check appropriate to your setu
 
 Update this block manually as you work through the workbook.
 
-- Current state: 1.2.1.1
-- Next target state: 1.2.1.2
-- Last completed step: 1.2.1.1
+- Current state: 1.2.1.10
+- Next target state: 1.3.1.1
+- Last completed step: 1.2.1.10
 - Current version focus: v1
 
 
