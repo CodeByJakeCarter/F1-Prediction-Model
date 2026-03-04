@@ -11,6 +11,21 @@
 5. Run tests:
    `pytest -q`
 
+# Run the API locally
+
+1. Activate virtual environment:
+   `source .venv/bin/activate`
+2. Start API server:
+   `uvicorn app.main:app --reload`
+3. Check health:
+   `curl http://127.0.0.1:8000/health`
+
+# Ingest workflow (current state)
+
+- Ingestion pipeline is not implemented yet at step `1.1.1.8`.
+- Planned v1 target is one-season deterministic ingest (implemented in later manual steps).
+- Until ingest exists, do not add ad-hoc scripts that bypass deterministic test rules.
+
 # Deterministic test environment rules
 
 - No live HTTP calls in tests.
